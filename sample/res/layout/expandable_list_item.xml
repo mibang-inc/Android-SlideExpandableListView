@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tjerkw.slideexpandable.sample.MyLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:slide="http://schemas.android.com/apk/res/com.tjerkw.slideexpandable.library"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
+              android:id="@+id/expandable_toggle_button"
               android:orientation="vertical">
 	<RelativeLayout
 			android:layout_width="fill_parent"
@@ -17,7 +18,6 @@
 				android:text="Hello World" android:textSize="40dp"/>
 
 		<Button
-				android:id="@+id/expandable_toggle_button"
 				android:text="More"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -50,4 +50,4 @@
 				android:textSize="12dip"/>
 
 	</LinearLayout>
-</LinearLayout>
+</com.tjerkw.slideexpandable.sample.MyLayout>

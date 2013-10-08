@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AbstractSlideExpandableListAdapter	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public AbstractSlideExpandableListAdapter(ListAdapter wrapped) {$/;"	m	class:AbstractSlideExpandableListAdapter
+AbstractSlideExpandableListAdapter	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^public abstract class AbstractSlideExpandableListAdapter extends WrapperListAdapterImpl {$/;"	c
+ActionSlideExpandableListView	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public ActionSlideExpandableListView(Context context) {$/;"	m	class:ActionSlideExpandableListView
+ActionSlideExpandableListView	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public ActionSlideExpandableListView(Context context, AttributeSet attrs) {$/;"	m	class:ActionSlideExpandableListView
+ActionSlideExpandableListView	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public ActionSlideExpandableListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:ActionSlideExpandableListView
+ActionSlideExpandableListView	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^public class ActionSlideExpandableListView extends SlideExpandableListView {$/;"	c
+COLLAPSE	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	public final static int COLLAPSE = 1;$/;"	f	class:ExpandCollapseAnimation
+CREATOR	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		public static final Parcelable.Creator<SavedState> CREATOR =$/;"	f	class:AbstractSlideExpandableListAdapter.SavedState
+EXPAND	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	public final static int EXPAND = 0;$/;"	f	class:ExpandCollapseAnimation
+ExpandCollapseAnimation	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	public ExpandCollapseAnimation(View view, int type) {$/;"	m	class:ExpandCollapseAnimation
+ExpandCollapseAnimation	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^public class ExpandCollapseAnimation extends Animation {$/;"	c
+OnActionClickListener	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public interface OnActionClickListener {$/;"	i	class:ActionSlideExpandableListView
+SavedState	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		SavedState(Parcelable superState) {$/;"	m	class:AbstractSlideExpandableListAdapter.SavedState
+SavedState	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		private SavedState(Parcel in) {$/;"	m	class:AbstractSlideExpandableListAdapter.SavedState	file:
+SavedState	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	static class SavedState extends View.BaseSavedState {$/;"	c	class:AbstractSlideExpandableListAdapter
+SlideExpandableListAdapter	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	public SlideExpandableListAdapter(ListAdapter wrapped) {$/;"	m	class:SlideExpandableListAdapter
+SlideExpandableListAdapter	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	public SlideExpandableListAdapter(ListAdapter wrapped, int toggle_button_id, int expandable_view_id) {$/;"	m	class:SlideExpandableListAdapter
+SlideExpandableListAdapter	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^public class SlideExpandableListAdapter extends AbstractSlideExpandableListAdapter {$/;"	c
+SlideExpandableListView	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public SlideExpandableListView(Context context) {$/;"	m	class:SlideExpandableListView
+SlideExpandableListView	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public SlideExpandableListView(Context context, AttributeSet attrs) {$/;"	m	class:SlideExpandableListView
+SlideExpandableListView	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public SlideExpandableListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:SlideExpandableListView
+SlideExpandableListView	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^class SlideExpandableListView extends ListView {$/;"	c
+WrapperListAdapterImpl	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public WrapperListAdapterImpl(ListAdapter wrapped) {$/;"	m	class:WrapperListAdapterImpl
+WrapperListAdapterImpl	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^public abstract class WrapperListAdapterImpl extends BaseAdapter implements WrapperListAdapter {$/;"	c
+adapter	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	private SlideExpandableListAdapter adapter;$/;"	f	class:SlideExpandableListView	file:
+animateView	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private void animateView(final View target, final int type) {$/;"	m	class:AbstractSlideExpandableListAdapter	file:
+animationDuration	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private int animationDuration = 330;$/;"	f	class:AbstractSlideExpandableListAdapter	file:
+applyTransformation	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	protected void applyTransformation(float interpolatedTime, Transformation t) {$/;"	m	class:ExpandCollapseAnimation
+areAllItemsEnabled	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public boolean areAllItemsEnabled() {$/;"	m	class:WrapperListAdapterImpl
+buttonIds	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	private int[] buttonIds = null;$/;"	f	class:ActionSlideExpandableListView	file:
+collapse	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public boolean collapse() {$/;"	m	class:SlideExpandableListView
+collapseLastOpen	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public boolean collapseLastOpen() {$/;"	m	class:AbstractSlideExpandableListAdapter
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+com.tjerkw.slideexpandable.library	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^package com.tjerkw.slideexpandable.library;$/;"	p
+enableExpandOnItemClick	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public void enableExpandOnItemClick() {$/;"	m	class:SlideExpandableListView
+enableFor	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private void enableFor(final View button, final View target, final int position) {$/;"	m	class:AbstractSlideExpandableListAdapter	file:
+enableFor	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public void enableFor(View parent, int position) {$/;"	m	class:AbstractSlideExpandableListAdapter
+expandable_view_id	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	private int expandable_view_id;$/;"	f	class:SlideExpandableListAdapter	file:
+getAnimationDuration	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public int getAnimationDuration() {$/;"	m	class:AbstractSlideExpandableListAdapter
+getCount	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public int getCount() {$/;"	m	class:WrapperListAdapterImpl
+getExpandToggleButton	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public abstract View getExpandToggleButton(View parent);$/;"	m	class:AbstractSlideExpandableListAdapter
+getExpandToggleButton	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	public View getExpandToggleButton(View parent) {$/;"	m	class:SlideExpandableListAdapter
+getExpandableView	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public abstract View getExpandableView(View parent);$/;"	m	class:AbstractSlideExpandableListAdapter
+getExpandableView	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	public View getExpandableView(View parent) {$/;"	m	class:SlideExpandableListAdapter
+getItem	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public Object getItem(int i) {$/;"	m	class:WrapperListAdapterImpl
+getItemId	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public long getItemId(int i) {$/;"	m	class:WrapperListAdapterImpl
+getItemViewType	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public int getItemViewType(int i) {$/;"	m	class:WrapperListAdapterImpl
+getView	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public View getView(int position, View view, ViewGroup viewGroup) {$/;"	m	class:AbstractSlideExpandableListAdapter
+getView	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public View getView(int position, View view, ViewGroup viewGroup) {$/;"	m	class:WrapperListAdapterImpl
+getViewTypeCount	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public int getViewTypeCount() {$/;"	m	class:WrapperListAdapterImpl
+getWrappedAdapter	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public ListAdapter getWrappedAdapter() {$/;"	m	class:WrapperListAdapterImpl
+hasStableIds	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public boolean hasStableIds() {$/;"	m	class:WrapperListAdapterImpl
+isAnyItemExpanded	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public boolean isAnyItemExpanded() {$/;"	m	class:AbstractSlideExpandableListAdapter
+isEmpty	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public boolean isEmpty() {$/;"	m	class:WrapperListAdapterImpl
+isEnabled	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public boolean isEnabled(int i) {$/;"	m	class:WrapperListAdapterImpl
+lastOpen	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private View lastOpen = null;$/;"	f	class:AbstractSlideExpandableListAdapter	file:
+lastOpenPosition	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		public int lastOpenPosition = -1;$/;"	f	class:AbstractSlideExpandableListAdapter.SavedState
+lastOpenPosition	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private int lastOpenPosition = -1;$/;"	f	class:AbstractSlideExpandableListAdapter	file:
+listener	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	private OnActionClickListener listener;$/;"	f	class:ActionSlideExpandableListView	file:
+mAnimatedView	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	private View mAnimatedView;$/;"	f	class:ExpandCollapseAnimation	file:
+mEndHeight	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	private int mEndHeight;$/;"	f	class:ExpandCollapseAnimation	file:
+mLayoutParams	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	private LinearLayout.LayoutParams mLayoutParams;$/;"	f	class:ExpandCollapseAnimation	file:
+mType	src/com/tjerkw/slideexpandable/library/ExpandCollapseAnimation.java	/^	private int mType;$/;"	f	class:ExpandCollapseAnimation	file:
+onClick	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^		public void onClick(View itemView, View clickedView, int position);$/;"	m	interface:ActionSlideExpandableListView.OnActionClickListener
+onRestoreInstanceState	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public void onRestoreInstanceState(SavedState state) {$/;"	m	class:AbstractSlideExpandableListAdapter
+onRestoreInstanceState	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public void onRestoreInstanceState(Parcelable state) {$/;"	m	class:SlideExpandableListView
+onSaveInstanceState	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public Parcelable onSaveInstanceState(Parcelable parcelable) {$/;"	m	class:AbstractSlideExpandableListAdapter
+onSaveInstanceState	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public Parcelable onSaveInstanceState() {$/;"	m	class:SlideExpandableListView
+openItems	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		public BitSet openItems = null;$/;"	f	class:AbstractSlideExpandableListAdapter.SavedState
+openItems	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private BitSet openItems = new BitSet();$/;"	f	class:AbstractSlideExpandableListAdapter	file:
+readBitSet	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private static BitSet readBitSet(Parcel src) {$/;"	m	class:AbstractSlideExpandableListAdapter	file:
+registerDataSetObserver	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public void registerDataSetObserver(DataSetObserver dataSetObserver) {$/;"	m	class:WrapperListAdapterImpl
+setAdapter	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:ActionSlideExpandableListView
+setAdapter	src/com/tjerkw/slideexpandable/library/SlideExpandableListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:SlideExpandableListView
+setAnimationDuration	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	public void setAnimationDuration(int duration) {$/;"	m	class:AbstractSlideExpandableListAdapter
+setItemActionListener	src/com/tjerkw/slideexpandable/library/ActionSlideExpandableListView.java	/^	public void setItemActionListener(OnActionClickListener listener, int ... buttonIds) {$/;"	m	class:ActionSlideExpandableListView
+toggle_button_id	src/com/tjerkw/slideexpandable/library/SlideExpandableListAdapter.java	/^	private int toggle_button_id;$/;"	f	class:SlideExpandableListAdapter	file:
+unregisterDataSetObserver	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	public void unregisterDataSetObserver(DataSetObserver dataSetObserver) {$/;"	m	class:WrapperListAdapterImpl
+updateExpandable	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private void updateExpandable(View target, int position) {$/;"	m	class:AbstractSlideExpandableListAdapter	file:
+viewHeights	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private final SparseIntArray viewHeights = new SparseIntArray(10);$/;"	f	class:AbstractSlideExpandableListAdapter	file:
+wrapped	src/com/tjerkw/slideexpandable/library/WrapperListAdapterImpl.java	/^	protected ListAdapter wrapped;$/;"	f	class:WrapperListAdapterImpl
+writeBitSet	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^	private static void writeBitSet(Parcel dest, BitSet set) {$/;"	m	class:AbstractSlideExpandableListAdapter	file:
+writeToParcel	src/com/tjerkw/slideexpandable/library/AbstractSlideExpandableListAdapter.java	/^		public void writeToParcel(Parcel out, int flags) {$/;"	m	class:AbstractSlideExpandableListAdapter.SavedState
