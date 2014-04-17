@@ -51,6 +51,11 @@ public class ActionSlideExpandableListView extends SlideExpandableListView {
 		 */
 		public void onClick(View itemView, View clickedView, int position);
 	}
+    public interface OnExpandCollapseListener{
+
+
+    }
+
 
 	public void setAdapter(ListAdapter adapter) {
 		super.setAdapter(new WrapperListAdapterImpl(adapter) {

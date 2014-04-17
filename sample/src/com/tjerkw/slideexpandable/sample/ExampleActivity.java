@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
+
+import com.tjerkw.slideexpandable.library.AbstractSlideExpandableListAdapter;
 import com.tjerkw.slideexpandable.library.ActionSlideExpandableListView;
 import com.tjerkw.slideexpandable.library.SlideExpandableListAdapter;
 
@@ -32,8 +34,28 @@ public class ExampleActivity extends Activity {
 		ActionSlideExpandableListView list = (ActionSlideExpandableListView)this.findViewById(R.id.list);
 
 		// fill the list with data
-		list.setAdapter(buildDummyData());
+        SlideExpandableListAdapter adapter =  new SlideExpandableListAdapter(buildDummyData(),R.id.expandable_toggle_button,R.id.expandable);
 
+        adapter.setItemExpandCollapseListener(new AbstractSlideExpandableListAdapter.OnItemExpandCollapseListener() {
+            @Override
+            public void onExpand(View itemView, int position) {
+                Toast.makeText(
+                        ExampleActivity.this,
+                        "Clicked Action:  in list item "+position,
+                        Toast.LENGTH_SHORT
+                ).show();
+            }
+
+            @Override
+            public void onCollapse(View itemView, int position) {
+                Toast.makeText(
+                        ExampleActivity.this,
+                        "Clicked Action:  in list item "+position,
+                        Toast.LENGTH_SHORT
+                ).show();
+            }
+        });
+        list.setAdapter(adapter);
 		// listen for events in the two buttons for every list item.
 		// the 'position' var will tell which list item is clicked
 		list.setItemActionListener(new ActionSlideExpandableListView.OnActionClickListener() {
@@ -61,11 +83,14 @@ public class ExampleActivity extends Activity {
 					"Clicked Action: "+actionName+" in list item "+position,
 					Toast.LENGTH_SHORT
 				).show();
+
 			}
 
 		// note that we also add 1 or more ids to the setItemActionListener
 		// this is needed in order for the listview to discover the buttons
 		}, R.id.buttonA, R.id.buttonB);
+
+        list.toggle(9);
 	}
 
 	/**
